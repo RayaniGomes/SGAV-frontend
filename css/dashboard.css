@@ -7,9 +7,6 @@
 html, body{
     font-family: 'Montserrat';
     font-style: normal;
-}
-
-.container_dashboard{
     background-color: #FCFCFC;
 }
 
@@ -24,13 +21,13 @@ html, body{
     border-bottom-right-radius: 100px;
     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.sigla{
+.titulo-principal{
     font-size: 30px;
-    margin-left: 100px;
     margin-top: 50px;
 }
 
 .container_titulo{
+    width: 100%;
     font-weight: 900;
     font-size: 20px;
     color: #000000;
@@ -53,13 +50,6 @@ html, body{
     border:none;
     height:32px;
     width:260px;
-}
-
-.caixas{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: center;
 }
 
 .card {
