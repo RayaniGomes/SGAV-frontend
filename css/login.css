@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.container_login{
+    background-color: #3F739C;
+    color: white;
+}
+
+.main-content{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.login_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #2B2828;
+    background-color: #efefef;
+    border-bottom-right-radius: 100px;
+    box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sigla{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+form{
+    margin: 158px 200px;
+}
+
+label, input{
+    display: block;
+    text-align: left;
+}
+
+label{
+    font-weight: 500;
+    font-size: 30px;                          
+}
+
+.login #erro_email_login, .login #erro_senha_login{
+    display: none;
+}
+
+input{
+    font-size: 30px;
+    background: #ffff;
+    border: none;
+    padding: 10px;
+    border-bottom: 4px solid rgba(63, 115, 156, 0.3);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    outline: none;
+}
+
+input[type='submit']{
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #FFC53D;
+}
+
+.container_titulo{
+    font-weight: 900;
+    font-size: 20px;
+    margin: 100px;
+}
+
+.titulo-principal{
+    color: white;
+}
+
+.rodape{
+    display: flex;
+    justify-items: flex-end;
+    font-weight: 100;
+    color: white;
+}

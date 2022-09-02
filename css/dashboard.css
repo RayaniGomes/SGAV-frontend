@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.container_dashboard{
+    background-color: #FCFCFC;
+}
+
+.principal{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.menu-lateral{
+    background-color: #3F739C;
+    border-bottom-right-radius: 100px;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sigla{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.container_titulo{
+    font-weight: 900;
+    font-size: 20px;
+    color: #000000;
+    margin: 100px;
+}
+
+#divBusca{
+    background-color:#FCFCFC;
+    border:solid 1px;
+    border-radius:15px;
+    height: 40px;
+  }
+  
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+}
+
+.caixas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+   
+.card p {
+    color: #a3a5ae;
+    font-size: 16px;
+}
+
+.card{
+  background: #3F739C;
+}
+   
+.conteudo {
+    margin-top: 20px;
+    background: #FCFCFC;
+}

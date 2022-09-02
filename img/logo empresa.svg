@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79.02 69.19">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff9b16;
+      }
+
+      .cls-2 {
+        fill: #ffcc01;
+      }
+
+      .cls-3 {
+        fill: #0679bb;
+      }
+
+      .cls-4 {
+        fill: #fecc00;
+      }
+
+      .cls-5 {
+        fill: #0778c1;
+      }
+
+      .cls-6 {
+        fill: #003d73;
+      }
+
+      .cls-7 {
+        fill: #0b93dd;
+      }
+
+      .cls-8 {
+        fill: #ff9d11;
+      }
+
+      .cls-9 {
+        fill: #0895dd;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-8" points="18 26.94 1.91 48.89 18 48.89 18 26.94"/>
+  <polygon class="cls-2" points="20.94 26.94 20.94 48.89 37.15 48.89 20.94 26.94"/>
+  <polygon class="cls-1" points="21.83 23.87 38.17 23.87 38.17 46.34 21.83 23.87"/>
+  <polygon class="cls-5" points="40.98 46.34 40.98 23.87 57.32 23.87 40.98 46.34"/>
+  <polygon class="cls-9" points="41.87 48.89 58.09 26.94 58.09 48.89 41.87 48.89"/>
+  <polygon class="cls-3" points="61.02 48.89 61.02 26.94 76.72 48.89 61.02 48.89"/>
+  <polygon class="cls-7" points="40.98 22.21 57.32 22.21 40.98 0 40.98 22.21"/>
+  <polygon class="cls-4" points="21.83 22.21 38.17 22.21 38.17 0 21.83 22.21"/>
+  <rect class="cls-6" y="58.21" width="79.02" height="10.98"/>
+</svg>
