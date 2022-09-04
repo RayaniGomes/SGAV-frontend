@@ -10,17 +10,33 @@ html, body{
     background-color: #FCFCFC;
 }
 
-.principal{
+.container_menu{
     display: flex;
-    width: 50%;
-    height: 100%;
-}
-
-.menu-lateral{
+    align-items: center;
+    flex-direction: column;
+    width: 15vh;
+    height: 100vh;
     background-color: #3F739C;
-    border-bottom-right-radius: 100px;
+    border-bottom-right-radius: 10vh;
     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.logo{
+    width: 10vh;
+    height: 10vh;
+    margin-top: 5vh;
+}
+
+.option{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+.option img{
+    padding: 2vh;
+}
+/*
 .titulo-principal{
     font-size: 30px;
     margin-top: 50px;
@@ -79,3 +95,4 @@ html, body{
     margin-top: 20px;
     background: #FCFCFC;
 }
+*/

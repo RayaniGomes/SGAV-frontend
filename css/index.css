@@ -26,7 +26,7 @@ html, body{
     justify-content: center;
     color: #2B2828;
     background-color: #efefef;
-    border-bottom-right-radius: 15vh;
+    border-bottom-right-radius: 10vh;
     box-shadow: 1vh 1vh 1vh rgba(0, 0, 0, 0.25);
 }
 .sigla{
@@ -62,7 +62,7 @@ input{
     background: #ffff;
     border: none;
     padding: 1vh;
-    border-bottom: 1vh solid rgba(63, 115, 156, 0.3);
+    border-bottom: 0.5vh solid rgba(63, 115, 156, 0.3);
     border-radius: 1vh;
     margin-bottom: 2vh;
     margin-top: 2vh;
@@ -82,14 +82,14 @@ input[type='submit']{
     width: 60vh;
     font-weight: 900;
     font-size: 6vh;
-    margin-top: 5vh;
-    margin-left: 10vh;
+    margin-top: 10vh;
+    margin-left: 15vh;
     color: white;
 }
 
 .rodape{
-    width: 90vh;
-    height: 50vh;
+    width: 100vh;
+    height: 60vh;
     display: flex;
     align-items: flex-end;
     justify-content: end;
