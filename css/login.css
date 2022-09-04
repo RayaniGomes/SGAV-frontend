@@ -16,8 +16,8 @@ html, body{
 
 .main-content{
     display: flex;
-    width: 50%;
-    height: 100%;
+    width: 50vh;
+    height: 100vh;
 }
 
 .login_form{
@@ -26,16 +26,21 @@ html, body{
     justify-content: center;
     color: #2B2828;
     background-color: #efefef;
-    border-bottom-right-radius: 100px;
-    box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
+    border-bottom-right-radius: 15vh;
+    box-shadow: 1vh 1vh 1vh rgba(0, 0, 0, 0.25);
 }
 .sigla{
-    font-size: 30px;
-    margin-left: 100px;
-    margin-top: 50px;
+    font-size: 4vh;
+    margin-left: 10vh;
+    margin-top: 5vh;
 }
-form{
-    margin: 158px 200px;
+
+.container_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
 }
 
 label, input{
@@ -45,7 +50,7 @@ label, input{
 
 label{
     font-weight: 500;
-    font-size: 30px;                          
+    font-size: 4vh;                          
 }
 
 .login #erro_email_login, .login #erro_senha_login{
@@ -53,14 +58,14 @@ label{
 }
 
 input{
-    font-size: 30px;
+    font-size: 4vh;
     background: #ffff;
     border: none;
-    padding: 10px;
-    border-bottom: 4px solid rgba(63, 115, 156, 0.3);
-    border-radius: 5px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    padding: 1vh;
+    border-bottom: 1vh solid rgba(63, 115, 156, 0.3);
+    border-radius: 1vh;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
     outline: none;
 }
 
@@ -68,24 +73,27 @@ input[type='submit']{
     text-align: center;
     font-weight: bold;
     border: none;
-    width: 100%;
-    border-radius: 5px;
+    width: 51vh;
+    border-radius: 1vh;
     background-color: #FFC53D;
 }
 
-.container_titulo{
+.titulo_principal{
+    width: 60vh;
     font-weight: 900;
-    font-size: 20px;
-    margin: 100px;
-}
-
-.titulo-principal{
+    font-size: 6vh;
+    margin-top: 5vh;
+    margin-left: 10vh;
     color: white;
 }
 
 .rodape{
+    width: 90vh;
+    height: 60vh;
     display: flex;
-    justify-items: flex-end;
-    font-weight: 100;
+    align-items: flex-end;
+    justify-content: end;
+    font-weight: 50;
+    font-size: 3vh;
     color: white;
 }
