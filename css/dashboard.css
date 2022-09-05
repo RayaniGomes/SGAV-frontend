@@ -7,14 +7,19 @@
 html, body{
     font-family: 'Montserrat';
     font-style: normal;
-    background-color: #FCFCFC;
+    background-color: #efefef;
 }
 
+.container{
+    display: flex;
+}
+
+/*MENU*/
 .container_menu{
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 15vh;
+    width: 20%;
     height: 100vh;
     background-color: #3F739C;
     border-bottom-right-radius: 10vh;
@@ -30,69 +35,189 @@ html, body{
 .option{
     display: flex;
     flex-direction: column;
-    margin-top: 10vh;
+    margin-top: 20vh;
 }
 
 .option img{
     padding: 2vh;
 }
-/*
-.titulo-principal{
-    font-size: 30px;
-    margin-top: 50px;
-}
 
-.container_titulo{
-    width: 100%;
-    font-weight: 900;
-    font-size: 20px;
-    color: #000000;
-    margin: 100px;
-}
-
-#divBusca{
-    background-color:#FCFCFC;
-    border:solid 1px;
-    border-radius:15px;
-    height: 40px;
-  }
-  
-#txtBusca{
-    float:left;
-    background-color:transparent;
-    padding-left:5px;
-    font-style:italic;
-    font-size:18px;
-    border:none;
-    height:32px;
-    width:260px;
-}
-
-.card {
-    border-radius: 5px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    padding: 30px;
-    margin: 20px;
-    width: 400px;
-    transition: all 0.3s ease-out;
-}
-
-.card:hover {
+a:hover {
     transform: translateY(-5px);
     cursor: pointer;
 }
-   
-.card p {
-    color: #a3a5ae;
-    font-size: 16px;
+
+/*CONTEUDO*/
+.container_conteudo{
+    width: 100%;
+}
+.sigla{
+    font-size: 4vh;
+    margin-left: 10vh;
+}
+
+.busca{
+    display: flex;
+    width: 60vh;
+    margin-left: 30vh;
+    margin-top: 3vh;
+    border-radius: 2.5vh;
+    background-color: #ffff;
+}
+
+.txtBusca{
+    font-size: 3vh;
+    border: none;
+    height: 3vh;
+    width: 50vh;
+}
+
+.busca img{
+    margin-left: 15vh;
+}
+
+.btnBusca{
+    border: none;
+    height: 3vh;
+    border-radius: 0 2.5vh 2.5vh 0;
+    width: 50vh;
+}
+
+.Cards{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 5vh;
+    margin-left: 17vh;
+    
 }
 
 .card{
-  background: #3F739C;
+    width: 35vh;
+    height: 30vh;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 35px;
 }
-   
-.conteudo {
-    margin-top: 20px;
-    background: #FCFCFC;
+
+.perfil{
+    align-items: center;
+    margin-left: 1vh;
+    margin-top: 1vh;
 }
-*/
+
+.card_titulo1{
+    display: flex;
+    width: 35vh;
+    height: 10vh;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color:#FFC53D;
+}
+
+.card_titulo2{
+    display: flex;
+    width: 35vh;
+    height: 10vh;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color:#C4C4C4;
+}
+
+.card_titulo3{
+    display: flex;
+    width: 35vh;
+    height: 10vh;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #B4774B;
+}
+
+.card_titulo4{
+    display: flex;
+    width: 35vh;
+    height: 10vh;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #C2CBD9;
+}
+
+.alinhar{
+    margin-top: 3vh;
+    margin-left: 1vh;
+}
+
+.nome{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.coroa{
+    max-width: 5vh;
+    max-height: 5vh;
+    margin-left: 1vh;
+}
+
+.pontuacao{
+    display: flex;
+    margin-top: 1vh;
+    margin-left: 3vh;
+    font-size: 12px;
+}
+
+.pt{
+    margin: 0.5vh;
+}
+
+.lista{
+    width: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-left: 8vh;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.card a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: #0068BA;
+}
+
+.carrossel{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.circulo {
+    background: #3F739C;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 1vh;
+}
+
+/*ATIVIDADE*/
+.container_atividade{
+    display: flex;
+    justify-content: end;
+    width: 100vh;
+    height: 100vh;
+    background-color: #E5E5E5;
+    box-shadow:  -4px 4px 4px rgba(0, 0, 0, 0.25);
+}
