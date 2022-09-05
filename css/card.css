@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Montserrat';
+    font-style: normal;
+    background-color: #efefef;
+}
+.container{
+    display: flex;
+}
+
+/*MENU*/
+.container_menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    height: 100vh;
+    background-color: #3F739C;
+    border-bottom-right-radius: 10vh;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo{
+    width: 10vh;
+    height: 10vh;
+    margin-top: 5vh;
+}
+
+.option{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+
+.option img{
+    padding: 2vh;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+/*CONTEUDO*/
+.container_conteudo{
+    width: 100%;
+}
+.sigla{
+    font-size: 4vh;
+    margin-left: 10vh;
+}
+
+.nome_usuario{
+    display: flex;
+    background-color: #FFC53D;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    margin-left: 5vh;
+}
+
+.imgperfil{
+    margin-left: 5vh;
+}
+
+.info {
+    margin-top: 2vh;
+    margin-left: 2vh;
+    align-items: center;
+}
+
+.info_pontos{
+    display: flex;
+    align-items: center;
+    margin-right: 1v;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    font-size: 15px;
+}
+
+.info_pt{
+    margin-right: 2vh;
+}
+
+/*
+
+.pontuação {
+    display: flex;
+}
+
+.caixas {
+    display: flex;
+    justify-content: center;
+    background: #FFC53D;
+}
+
+.caixa-pesquisa {
+    margin: 50px 55px 50px 110px;
+}
+
+#divBusca{
+    background-color:#C2CBD9;
+    border-radius:15px;
+    height: 50px;
+    width: 40%;
+}
+  
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+    margin: 8px 218px 5px 20px;
+}
+
+#btnBusca {
+    margin: -34px 440px;
+}
+
+.texto {
+    margin: 0px 50px 35px 50px;
+    opacity: 50%;
+}
+
+li {
+    list-style-position: inside;
+}*/

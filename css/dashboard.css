@@ -42,7 +42,6 @@ html, body{
 }
 
 a:hover {
-    transform: translateY(-5px);
     cursor: pointer;
 }
 
@@ -170,13 +169,15 @@ a:hover {
 
 .pontuacao{
     display: flex;
+    align-items: center;
     margin-top: 1vh;
     margin-left: 3vh;
+    margin-left: 2vh;
     font-size: 12px;
 }
 
 .pt{
-    margin: 0.5vh;
+    margin-right: 2vh;
 }
 
 .lista{
@@ -289,4 +290,5 @@ a:hover {
     font-weight: 500;
     font-size: 14px;
     background-color: #ffff;
+    cursor: pointer;
  }
