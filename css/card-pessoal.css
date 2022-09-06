@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Montserrat';
+    font-style: normal;
+    background-color: #FCFCFC;
+}
+
+.principal{
+    display: flex;
+    height: 100%;
+}
+
+.menu-lateral{
+    background-color: #3F739C;
+    border-bottom-right-radius: 100px;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sigla{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.titulo {
+    width: 100%;
+    height: 25%;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.titulo-principal {
+    margin: 60px;
+}
+
+.caixas {
+    display: flex;
+    justify-content: center;
+    background: #C2CBD9;
+}
+
+.img {
+    display: flex;
+}
+
+.info {
+    text-align: center;
+}
+
+.imgperfil {
+    margin: 20px 20px 20px 90px;
+}
+
+.texto {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container_ponto {
+    display: flex;
+}
+
+.pontuação {
+    display: flex;
+}
+
+.caixa-pesquisa {
+    margin: 50px 55px 50px 110px;
+}
+
+#botao {
+    border: none;
+    border-radius: 15px;
+    height: 50px;
+    width: 13%;
+    background: #FFC53D;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#divBusca{
+    background-color:#C2CBD9;
+    border-radius:15px;
+    height: 50px;
+    width: 40%;
+  }
+  
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+    margin: 8px 218px 5px 20px;
+}
+
+#btnBusca {
+    margin: -34px 440px;
+}
+
+.texto {
+    margin: 0px 50px 35px 50px;
+    opacity: 50%;
+}
+
+li {
+    list-style-position: inside;
+}
