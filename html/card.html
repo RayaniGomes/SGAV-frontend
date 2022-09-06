@@ -12,22 +12,23 @@
 
     <body>
         <div class="container">
-            <div class="container_menu">
+            <!--MENU-->
+            <header class="container_menu">
                 <img class="logo" src="../img/logo.svg" alt="logo">
-                <nav class="option">
-                  <a href="#"><img src="../img/menu1.svg" alt=" "></a>
-                  <a href="#"><img src="../img/menu2.svg" alt="Rank"></a>
-                  <a href="#"><img src="../img/menu3.svg" alt="Indicações"></a>
-                  <a href="#"><img src="../img/menu4.svg" alt="Perfil"></a>
+                <nav class="menu">
+                    <a href="#"><img src="../img/menu1.svg" alt=" "></a>
+                    <a href="#"><img src="../img/menu2.svg" alt="Rank"></a>
+                    <a href="#"><img src="../img/menu3.svg" alt="Indicações"></a>
+                    <a href="#"><img src="../img/menu4.svg" alt="Perfil"></a>
                 </nav>
-            </div>
-
+            </header>
+            <!--CENTRO-->
             <div class="container_conteudo">
-          
+                <!--TITULO-->
                 <div class="titulo">
-                  <h3 class="sigla">SGAV</h3>
+                <h3 class="sigla">SGAV</h3>
                 </div>
-
+                <!--NOME DO USUÁRIO-->
                 <div class="nome_usuario">
                     <div class="img">
                         <a href="dashboard.html"><img src="../img/seta.svg" alt=""></a>
@@ -37,60 +38,89 @@
                         <h2>Fulano da Silva</h2>
                         <span>Cargo |   1 ª   |    3 meses na Empresa</span>
                         <div class="info_pontos">
-                            <p >100</p>
+                            <p>100</p>
                             <img class="info_pt" src="../img/estrela.svg" alt="">
                             <p>14</p>
                             <img class="info_t" src="../img/fogurte.svg" alt="">
                         </div>
                     </div>
+                    <img class="us_coroa" src="../img/coroa2.svg" alt="">
                 </div>
-                
-                <div class="busca">
-                  <input type="text" placeholder="Pesquise por nome"/>
-                  <a href="#"><img src="../img/lupa.svg"  alt="Buscar"/></a>
+                <!--BUSCA E PRA CIMA-->
+                <div class="buscapracima">
+                    <div class="card_busca">
+                        <input type="text" class="text_busca" placeholder="Pesquise por nome">
+                        <a href="#" class="lupa"><img src="../img/lupa.svg"  alt="Buscar"/></a>
+                    </div>
+                    <button class="bnt_card_pracima">
+                        <img src="../img/PraCimaBranco.svg" alt="">
+                    </button>
                 </div>
-                
+                <!--INFORMAÇÕES SEMANAIS-->
+                <div class="paragrafo">
+                    <div class="texto">
+                        <p>XX/XX - XX/XX</p>
+                        <ul>
+                            <li>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                            </li>
+                            <li>
+                                <p>Nibh at egestas elementum id ipsum.</p>
+                            </li>
+                            <li>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="texto">
+                        <p>XX/XX - XX/XX</p>
+                        <ul>
+                            <li>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                            </li>
+                            <li>
+                                <p>Nibh at egestas elementum id ipsum.</p>
+                            </li>
+                            <li>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>        
+            </div>
+            <!--PRA CIMA-->
+            <div class="container_pracima">
+                <div class="pc_titulo">
+                  <div class="pc_icon">
+                    <img src="../img/PraCimaAzul.svg" alt="">
+                  </div>
+                  <h4 class="pc_nome">Pra Cima</h4>
+                </div>
+                <!--PERFIL DOS PRA CIMA-->
+                <div class="pc_perfil">
+                    <!--PERFIL 1-->
+                    <div class="pc_pessoa">
+                        <div class="pc_icon">
+                        <img src="../img/perfilBlack.svg" alt="Perfil">
+                        </div>
+                        <h4>Fulano Rodigues <span class="pc_font">um<span class="pc_color"> Pra cima</span> por concluir Lorem ipsum dolor sit amet.</span></h4>
+                    </div>
+                    <!--PERFIL 2-->
+                    <div class="pc_pessoa">
+                        <div class="pc_icon">
+                        <img src="../img/perfilBlack.svg" alt="Perfil">
+                        </div>
+                        <h4>Fulano Rodigues <span class="pc_font">um<span class="pc_color"> Pra cima</span> por concluir Lorem ipsum dolor sit amet.</span></h4>
+                    </div>
+                    <!--PERFIL 3-->
+                    <div class="pc_pessoa">
+                        <div class="pc_icon">
+                        <img src="../img/perfilBlack.svg" alt="Perfil">
+                        </div>
+                        <h4>Fulano Rodigues <span class="pc_font">um<span class="pc_color"> Pra cima</span> por concluir Lorem ipsum dolor sit amet.</span></h4>
+                    </div>
+                </div>
             </div>
         </div>
-        
-        <section class="caixas">
-            <div class="menu">
-                
-            </div>
-        </section>
-        <section>
-            <div class="caixa-pesquisa">
-                <div id="divBusca">
-                    <input type="text" id="txtBusca" placeholder="Pesquise por nome"/>
-                    <img src="../img/pesquisar.png" id="btnBusca" alt="Buscar"/>
-                  </div>
-                  
-            </div>
-            <div class="paragrafo">
-                <div class="texto">
-                    <p>XX/XX - XX/XX</p>
-                    <li>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                    </li>
-                    <li>
-                        <p>Nibh at egestas elementum id ipsum.</p>
-                    </li>
-                    <li>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                    </li>
-                </div>
-                <div class="texto">
-                    <p>XX/XX - XX/XX</p>
-                    <li>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                    </li>
-                    <li>
-                        <p>Nibh at egestas elementum id ipsum.</p>
-                    </li>
-                    <li>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                    </li>
-                </div>
-            </div>
-            
-        </section>
+    </body>
+</html>

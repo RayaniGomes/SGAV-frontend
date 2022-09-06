@@ -11,7 +11,6 @@ html, body{
 .container{
     display: flex;
 }
-
 /*MENU*/
 .container_menu{
     display: flex;
@@ -30,20 +29,21 @@ html, body{
     margin-top: 5vh;
 }
 
-.option{
+.menu{
     display: flex;
     flex-direction: column;
     margin-top: 20vh;
+    transition: transform 200ms;
 }
 
-.option img{
+.menu img{
     padding: 2vh;
 }
 
 a:hover {
+    transform: scale(1.08);
     cursor: pointer;
 }
-
 /*CONTEUDO*/
 .container_conteudo{
     width: 100%;
@@ -55,6 +55,7 @@ a:hover {
 
 .nome_usuario{
     display: flex;
+    margin-top: 3vh;
     background-color: #FFC53D;
 }
 
@@ -83,53 +84,132 @@ a:hover {
     font-size: 15px;
 }
 
-.info_pt{
+.info_pontos p{
+    margin-right: 1vh;
+}
+.info_pontos p{
+    margin-right: 0.5vh;
+}
+
+.info_pontos img{
     margin-right: 2vh;
 }
 
-/*
-
-.pontuação {
+.us_coroa{
     display: flex;
+    align-items: center;
+    margin-left: 25vh;
 }
 
-.caixas {
+.buscapracima{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3vh;
+}
+
+.card_busca{
+    display: flex;
+    align-items: center;
     justify-content: center;
-    background: #FFC53D;
+    width: 428px;
+    height: 55px;
+    border-radius: 20px;
+    margin-top: 3vh;
+    transition: transform 200ms;
+    background-color: #C2CBD9;
 }
 
-.caixa-pesquisa {
-    margin: 50px 55px 50px 110px;
+.text_busca{
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+    background-color: #C2CBD9;  
 }
 
-#divBusca{
-    background-color:#C2CBD9;
-    border-radius:15px;
-    height: 50px;
-    width: 40%;
-}
-  
-#txtBusca{
-    float:left;
-    background-color:transparent;
-    padding-left:5px;
-    font-size:18px;
-    border:none;
-    height:32px;
-    width:260px;
-    margin: 8px 218px 5px 20px;
+.lupa{
+    margin-left: 120px;
 }
 
-#btnBusca {
-    margin: -34px 440px;
+.bnt_card_pracima{
+    margin-left: 3vh;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFC53D;
 }
 
-.texto {
-    margin: 0px 50px 35px 50px;
+.bnt_card_pracima img{
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.bnt_card_pracima:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.paragrafo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+    margin-left: 15vh;
+}
+.texto{
+    justify-content: left;
+    margin-top: 3vh;
     opacity: 50%;
 }
 
-li {
-    list-style-position: inside;
-}*/
+.texto ul{
+    margin-left: 2vh;
+}
+/*PRA CIMA*/
+.container_pracima{
+    width: 100vh;
+    height: 100vh;
+    background-color: #E5E5E5;
+    box-shadow:  -4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pc_titulo{
+    display: flex;
+    align-items: center;
+    margin-top: 5vh;
+    margin-left: 5vh;
+    color: #3F739C;
+}
+
+.pc_icon{
+    margin-right: 1vh;
+}
+
+.pc_nome{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.pc_perfil{
+    margin: 5vh;
+}
+
+.pc_font{
+    font-weight: 400;
+}
+.pc_color{
+    font-weight: 700;
+    color: #3F739C;
+}
+
+.pc_pessoa{
+    display: flex;
+    margin-bottom: 5vh;
+}
+
+.pc_pessoa h4{
+    font-weight: 500;
+}
