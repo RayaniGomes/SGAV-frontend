@@ -11,48 +11,10 @@ html, body{
 .container{
     display: flex;
 }
-/*MENU*/
-.container_menu{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 20%;
-    height: 100vh;
-    background-color: #3F739C;
-    border-bottom-right-radius: 10vh;
-    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.logo{
-    width: 10vh;
-    height: 10vh;
-    margin-top: 5vh;
-}
-
-.menu{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20vh;
-    transition: transform 200ms;
-}
-
-.menu img{
-    padding: 2vh;
-}
-
-a:hover {
-    transform: scale(1.08);
-    cursor: pointer;
-}
 /*CONTEUDO*/
 .container_conteudo{
     width: 100%;
 }
-.sigla{
-    font-size: 4vh;
-    margin-left: 10vh;
-}
-
 .nome_usuario{
     display: flex;
     margin-top: 3vh;
