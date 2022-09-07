@@ -7,6 +7,7 @@
 html, body{
     font-family: 'Montserrat';
     font-style: normal;
+    overflow: hidden;
 }
 
 .container_login{
