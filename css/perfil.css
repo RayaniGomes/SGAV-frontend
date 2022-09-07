@@ -1,0 +1,74 @@
+.img_perfil button{
+    margin-top: 70%;
+    border: none;
+    background: none;
+}
+
+button:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.overflow_perfil{
+    width: 100%;
+    height: 50%;
+    overflow: auto;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #FCFCFC;
+}
+
+::-webkit-scrollbar-track-piece{
+    background: rgba(252, 252, 252, 0.5);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #3F739C;
+    border-radius: 20px;
+    margin: 5px;
+}
+.info_habilidades{
+    display: flex;
+    align-items: center;
+}
+
+.info_habilidades button{
+    border: none;
+    background-color: transparent;
+    margin-left: 70%;
+}
+
+.atividades{
+    padding-bottom: 10%;
+    flex-direction: column;
+    margin-left: 47px;
+    margin-top: 50px;
+}
+
+.txt_atividade{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 3vh;
+    opacity: 50%;
+    font-size: 25px;
+}
+
+.txt_atividade ul{
+    margin-left: 2vh;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    opacity: 50%;
+    font-size: 30px;
+    margin-left: 47px;
+}

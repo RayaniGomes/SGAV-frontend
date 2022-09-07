@@ -1,16 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html, body{
-    font-family: 'Montserrat';
-    font-style: normal;
-    background-color: #FCFCFC;
-    
-}
-
 .perfil_user{
     display: flex;
     height: 277px;
@@ -140,12 +127,7 @@ html, body{
     justify-content: center;
 }
 
-.habilidades button{
-    border: none;
-    background-color: transparent;
-    margin-left: 84%;
-    transition: transform 100ms;
-}
+
 
 .habilidades button:hover{
     transform: scale(1.08);
