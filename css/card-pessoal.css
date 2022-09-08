@@ -11,12 +11,11 @@
     margin-top: 3vh;
 }
 
-.modal-container{
+.modal-container, .modal-container-lixeira{
     z-index: 9999;  
     position: fixed;
     width: 100%;
     height: 100%;
-    background: #c2cbd92f;
     display: none;
 }
 
@@ -24,24 +23,33 @@
     padding: 2rem;
 }
 
-.modal-conteudo {
+.modal-conteudo, .modal-conteudo-lixeira {
     border: solid black;
     border-radius: 10px;
     background-color: #EFEFEF;
 }
 
-.modal-header{
-    display: flex;
-    flex-direction: column;
+.modal-conteudo-lixeira {
+    padding: 30px;
 }
 
-.modal-header span{
+.modal-header, .modal-header-lixeira{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+
+.modal-header-lixeira span{
+    font-weight: bold;
+}
+.modal-header span, .modal-header-lixeira span{
     cursor: pointer;
     align-self: flex-end;
     padding: .3em;
 }
 
-.titulo-modal{
+.titulo-modal, .titulo-modal-lixeira{
     font-weight: 500;
     font-size: 25px;
     text-align: center;
@@ -58,25 +66,32 @@
     border: none;
 }
 
-.modal-footer{
+.modal-footer, .modal-footer-lixeira{
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
-    
+    gap: 2rem; 
 }
 
 .modal-button{
-    opacity: 100%;
-    width: 496px;
-    height: 58px;
-    background-color: #FFC53D;
+    width: 181px;
+    height: 45px;
+    border: none;
+    border-radius: 15px;
+    background:#FFC53D;
+    transition: transform 100ms;
 }
 
 .modal-open{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+#excluir.modal-container-lixeira.modal-open {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
   
@@ -121,30 +136,37 @@
     align-items: center;
 }
 
-.modal_lixeira{
+.modal-lixeira{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
-.modal_lixeira button{
+
+.modal-lixeira button{
     border: none;
-    background: none;
+} 
 
+.modal-button-lixeira{
+    width: 181px;
+    height: 45px;
+    border: none;
+    border-radius: 15px;
+    color: #EFEFEF;
+    background:#AA1010;
+    transition: transform 100ms;
 }
 
-.modal_lixeira img{
+.modal-lixeira img{
     width: 20px;
     height: 25px;
     opacity: 50%;
     margin-top: 5vh; 
 }
 
-.container_metal{
-     z-index: 9999;  
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: #c2cbd92f;
-    display: none;
+.modal-content-lixeira {
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    margin-bottom: 20px;
 }
-
