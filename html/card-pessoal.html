@@ -45,7 +45,27 @@
                 </div>
                 <!--BUSCA E PRA CIMA-->
                 <div class="busca_addtarefa">
-                    <button>Adicionar Tarefas</button>
+                    <button onclick="onAdd()">Adicionar Tarefas</button>
+                    <div id="confirmation" class="modal-container">
+                        <div class="modal">
+                            <section class="modal-conteudo">
+                                <header class="modal-header">
+                                    <span onclick="onCancel()">&times;</span>
+                                    <h1 class="titulo-modal">Adicionar Tarefa</h1>
+                                </header>
+                                <section class="model-content">
+                                    <form class="modal-form">
+                                        <label for="titulo-modal">Atividade:</label>
+                                        <input type="text" name="atividade" id="att">
+                                    </form>
+                                </section>
+                                <footer class="modal-footer">
+                                    <button type="button" class="modal-button" onclick="onConfirm()">Adicionar</button>
+                                </footer>
+                            </section>
+                        </div>
+                    </div>
+
                     <div class="card_pessoal_busca">
                         <input type="text" class="text_busca" placeholder="Pesquise por nome">
                         <a href="#" class="lupa"><img src="../img/lupa.svg"  alt="Buscar"/></a>
@@ -118,3 +138,6 @@
             </div>
         </div>
     </div>
+  </body>
+  <script src="../js/modal-card.js"></script>
+</html>
