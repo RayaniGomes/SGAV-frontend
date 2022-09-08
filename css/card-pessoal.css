@@ -108,3 +108,35 @@
     transition: transform 200ms;
     background-color: #C2CBD9;
 }
+
+.paragrafo_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3vh;
+
+}
+.texto_paragrafo{
+    display: flex;
+    align-items: center;
+}
+
+.modal_lixeira{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal_lixeira button{
+    border: none;
+    background: none;
+
+}
+
+.modal_lixeira img{
+    width: 20px;
+    height: 25px;
+    opacity: 50%;
+    margin-top: 5vh;
+    
+}
+
